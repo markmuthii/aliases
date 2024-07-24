@@ -29,4 +29,6 @@ alias lise='live-server'
 
 alias nnb='nano ~/.bashrc'
 alias sb='source ~/.bashrc'
+alias cpb='cp ~/.bashrc /d/Projects/Aliases/.bashrc'
+
 alias cls='clear'
