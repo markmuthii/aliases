@@ -32,3 +32,4 @@ alias sb='source ~/.bashrc'
 alias cpb='cp ~/.bashrc /d/Projects/Aliases/.bashrc'
 
 alias cls='clear'
+alias ntt='wt -w 0 nt -d .' # new terminal tab in the same directory because duplicate tab does not work for some reason
