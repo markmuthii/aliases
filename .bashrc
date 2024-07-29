@@ -33,3 +33,4 @@ alias cpb='cp ~/.bashrc /d/Projects/Aliases/.bashrc'
 
 alias cls='clear'
 alias ntt='wt -w 0 nt -d' # new terminal tab in the specified folder 
+alias cdp='cd /d/Projects'
