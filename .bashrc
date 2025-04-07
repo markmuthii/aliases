@@ -1,8 +1,3 @@
-
-
-# Load Angular CLI autocompletion.
-source <(ng completion script)
-
 alias gi='git init'
 alias gs='git status'
 alias ga='git add'
