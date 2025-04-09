@@ -1,3 +1,4 @@
+# Some of the aliases in this file are personal to me, so do not blindly copy and paste them to your system
 alias gi='git init'
 alias gs='git status'
 alias ga='git add'
