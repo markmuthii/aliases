@@ -24,8 +24,10 @@ alias lise='live-server'
 
 alias nnb='nano ~/.bashrc'
 alias sb='source ~/.bashrc'
-alias cpb='cp ~/.bashrc /d/Projects/Aliases/.bashrc'
+alias cpb='cd /d/Projects/Aliases && cp ~/.bashrc . && git add . && git commit -m "Update aliases" && git push'
+
 
 alias cls='clear'
 alias ntt='wt -w 0 nt -d' # new terminal tab in the specified folder 
 alias cdp='cd /d/Projects'
+alias cdg='cd /d/GOMYCODE'
