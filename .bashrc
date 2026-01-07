@@ -1,3 +1,11 @@
+# Custom Git Bash prompt – overrides system PS1
+export PS1='\[\033]0;$TITLEPREFIX:$PWD\007\]\n\
+\[\033[32m\]KRAM@\h \
+\[\033[35m\]$MSYSTEM \
+\[\033[33m\]\w\
+\[\033[36m\]`__git_ps1`\
+\[\033[0m\]\n$ '
+
 # Some of the aliases in this file are personal to me, so do not blindly copy and paste them to your system
 alias gi='git init'
 alias gs='git status'
@@ -32,3 +40,4 @@ alias cls='clear'
 alias ntt='wt -w 0 nt -d' # new terminal tab in the specified folder 
 alias cdp='cd /d/Projects'
 alias cdg='cd /d/GOMYCODE'
+alias cdo='cd /d/OVES'
