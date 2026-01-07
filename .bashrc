@@ -41,3 +41,4 @@ alias ntt='wt -w 0 nt -d' # new terminal tab in the specified folder
 alias cdp='cd /d/Projects'
 alias cdg='cd /d/GOMYCODE'
 alias cdo='cd /d/OVES'
+alias cdd='cd /d'
